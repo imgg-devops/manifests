@@ -1,0 +1,18 @@
+global:
+  logging:
+    format: json
+
+configs:
+  repositories:
+    manifests:
+      url: "ssh://git@github.com/imgg-devops/manifests.git"
+      name: manifests
+
+# server:
+#   config:
+#     dex.config:
+#       connectors:
+#         - type: github
+#           id: github
+#           name: GitHub
+#           config:
